@@ -1,0 +1,15 @@
+# Daftar pustaka yang digunakan dalam proyek ini
+required_libraries = [
+    "ipywidgets",
+    "matplotlib",
+    "pdfplumber",
+    "yfinance",
+    "pandas",
+    "requests"
+]
+
+with open("requirements.txt", "w") as f:
+    for lib in required_libraries:
+        f.write(f"{lib}\n")
+
+print("File `requirements.txt` telah dibuat dengan daftar pustaka yang diperlukan.")
